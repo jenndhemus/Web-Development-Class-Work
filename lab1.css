@@ -1,0 +1,198 @@
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: medium;
+    background-color: #084B8A;
+	
+	
+}
+
+img {
+    float: right;
+}
+
+h2 p{
+padding-bottom:0px;
+}
+
+.whiteBox {
+		background-color: white;
+
+/*the white containing box should have a solid, black, 4-px thick border--> */
+		border-width: 4-px;
+		border-color: black;
+		border-style: solid;
+	
+		overflow: hidden;
+		width: 80%
+		float:center;
+		margin: 10px 10px;
+		
+	
+
+}
+
+.tittleBox{
+		margin: 10px 10px;
+
+	    background-color: lightblue;
+		
+		border-width: 1-px;
+		border-color: black;
+		border-style: solid;
+		
+		padding-right:10px;
+
+	
+		
+		/*text align*/
+		text-align: right;
+		
+			
+		
+}
+
+/*underline list of friends
+The hyperlinks should be underlined and change color to red when mousedover
+(using the hover pseudoclass).*/
+
+div p{
+margin-top: 1px;
+padding-top:1px;
+}
+
+.tittleBox->h2{
+font-size: 0.8em;
+}
+
+
+body *:hover {
+
+background-color: yellow;
+ }
+ 
+
+a:visited {color: white;}
+
+a:link {
+color: white;}
+
+
+
+
+
+
+/* mouse over link */
+a:hover{
+text-decoration:underline;
+color:red;
+}
+
+
+
+
+.friendsBox{
+
+
+
+
+		color: white;
+		font-size:x-large;
+
+		float:left;
+		border-width: 4-px;
+		border-color: black;
+		border-style: solid;
+
+		background-color: purple;
+		width: 260px;
+		
+		
+		
+		
+		overflow:overlay;
+		margin-top:10px;
+		margin-left:10px;
+		margin-right:10px;
+		
+		height: 300px;
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+	
+	
+		
+
+		}
+
+/*The title box should have a solid, black, 1-px thick border.
+The title is a <h1> and the subtitle is a <h2> in the lightblue title box. These headings
+should be aligned to the right of that section of the page. The subtitle should have 0.8em
+font.*/
+
+
+	
+.blog1{
+	float: right;
+	
+	
+		border-width: 2-px;
+		border-color: black;
+		border-style: solid;
+/*•The blog boxes should have have a solid, black, 2-px thick border.
+	The title of each blog entry is an <h2>.
+	The images should float on the right side of a blog entry next to the surrounding text.
+	They must stay within the bounds of the enclosing box, and not bleed into other content.*/
+		background-color: #B4CC83;
+		 width: 990px;
+		margin: 10px 10px;
+		padding-bottom:0px;
+		height: 300px;
+		
+		
+		/*justifed text*/
+		
+		text-align: justify;
+		text-justify: inter-word;
+		
+
+		}
+		
+		
+	
+
+/*images margins*/
+
+p img {
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
+
+width:200px;
+height:200px;
+
+line-height: 0;
+
+ vertical-align: top;
+
+}
+
+p {
+    padding: 10px 10px;
+}
+	
+		
+
+		
+	/*I need to make them flow correctly
+or if you float both, you'll need to encourage the wrapper div to contain both the floated children, or it will think it's empty and not put the border around them */
+
+	
+
